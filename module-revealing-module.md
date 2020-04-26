@@ -8,10 +8,10 @@
 
 ```js
 (function() {
-     Declare private vars and functions
+     Declare private variables and functions
 
 return {
-    Declare public var and functions
+    Declare public variables and functions
   }
 })();
 ```
