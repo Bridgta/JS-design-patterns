@@ -11,7 +11,7 @@ const Singleton = (function () {
     let instance;
 
     function createInstance() {
-        const object = new Object("Object instance");
+        const object = new Object({ name: "Bridget" });
         return object;
     }
 
@@ -24,4 +24,7 @@ const Singleton = (function () {
         },
     };
 })();
+
+const instance1 = Singleton.getInstance();
+const instance2 = Singleton.getInstance();
 ```
