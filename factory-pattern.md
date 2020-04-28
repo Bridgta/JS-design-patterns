@@ -4,6 +4,8 @@
 
 ### The fctory method is creational pattern that defines an interface for creating an object, but lets subclasses decide which class to instantiate.
 
+![factory-Pattern](/img/jsF.jpg)
+
 ### An example
 
 ```js
